@@ -1,9 +1,10 @@
-#include <com_benz_fastblur_MainActivity.h>
+#include <com_benz_fastblur_Fast2Blur.h>
 #include <ImageBlur.c>
 #include <android/log.h>
 #include <android/bitmap.h>
 
-JNIEXPORT void JNICALL Java_com_benz_jnitest_Main_fast2Blur(JNIEnv *env, jclass obj, jobject bitmapIn, jint r)
+JNIEXPORT void JNICALL Java_com_benz_fastblur_Fast2Blur_buildBlur
+(JNIEnv *env, jclass obj, jobject bitmapIn, jint r)
 {
 	AndroidBitmapInfo infoIn;
 	void* pixelsIn;

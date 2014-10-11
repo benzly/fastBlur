@@ -1,4 +1,4 @@
-obj/local/armeabi/objs/JNI_ImageBlur/com_benz_fastblur_MainActivity.o: \
+obj/local/armeabi-v7a/objs/JNI_ImageBlur/com_benz_fastblur_MainActivity.o: \
  jni/com_benz_fastblur_MainActivity.cpp \
  jni/com_benz_fastblur_MainActivity.h \
  /home/xubin/source/ndk-r10b/platforms/android-19/arch-arm/usr/include/jni.h \
