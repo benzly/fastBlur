@@ -6,9 +6,9 @@ import android.util.Log;
 public class Fast2Blur {
 
     static {
-        Log.d("ImageUtils", "load  JNI_ImageBlur.so  start");
-        System.loadLibrary("JNI_ImageBlur");
-        Log.d("ImageUtils", "load  JNI_ImageBlur.so  end");
+        Log.d("ImageUtils", "load  bitmap2Blur.so  start");
+        System.loadLibrary("bitmap2Blur");
+        Log.d("ImageUtils", "load  bitmap2Blur.so  end");
     }
 
     public static void build(Bitmap bitmap, int blurLevel) throws Exception {
